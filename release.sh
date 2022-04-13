@@ -14,6 +14,8 @@ RELEASENAME=${DEVICE}-${DATE}
 URL="$REPO/releases/download/${RELEASENAME}/${ZIPNAME}"
 
 
+echo "device": $DEVICE
+echo "date": $DATE
 echo "generatedAt": $TIMESTAMP,
 echo "fileName": "$ZIPNAME",
 echo "url": "$URL",
