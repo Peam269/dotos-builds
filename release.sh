@@ -48,5 +48,5 @@ EOM
 # Push changes made to raphael.json to GitHub
 git -C $BUILDS/dotos-builds add raphael.json
 git -C $BUILDS/dotos-builds commit -m "raphael"
-git -C $BUILDS/dotos-builds push origin master
+git -C $BUILDS/dotos-builds push
 echo ready to release!
