@@ -1,8 +1,9 @@
-ZIPPATH=out/target/product/raphael
-ZIPNAME=$(ls $ZIPPATH/dotOS-*.zip | tail -n1 | xargs -n1 basename)
-REPO=https://github.com/Peam269/dotos-builds
 BUILDS=~/android/builds
+REPO=https://github.com/Peam269/dotos-builds
+EDITOR=nano
+ZIPPATH=out/target/product/raphael
 
+ZIPNAME=$(ls $ZIPPATH/dotOS-*.zip | tail -n1 | xargs -n1 basename)
 METADATA=$(unzip -p "$ZIPPATH/$ZIPNAME" META-INF/com/android/metadata)
 TIMESTAMP=$(echo "$METADATA" | grep post-timestamp | cut -f2 -d '=')
 HASH=$(cut -f1 -d ' ' $ZIPPATH/$ZIPNAME.sha256sum)
@@ -48,7 +49,11 @@ FILE="$BUILDS/dotos-builds/raphael.json"
 }
 EOM
 # Push changes made to raphael.json to GitHub
+$EDITOR $BUILDS/dotos-builds/changelog.md
 git -C $BUILDS/dotos-builds add raphael.json
-git -C $BUILDS/dotos-builds commit -m "raphael"
+git -C $BUILDS/dotos-builds add changelog.md
+git -C $BUILDS/dotos-builds commit -m $RELEASENAME
+git -C $BUILDS/dotos-builds tag $RELEASENAME
 git -C $BUILDS/dotos-builds push
-echo ready to release!
+cd $BUILDS/dotos-builds && gh release create $RELEASENAME -F changelog.md $BUILDS/$ZIPNAME --target main
+echo new build released!
