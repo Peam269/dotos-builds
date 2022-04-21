@@ -4,14 +4,14 @@
   "brandName": "Xiaomi",
   "releases": [
     {
-      "type": "gapps",
-      "generatedAt": 1650543325,
-      "fileName": "dotOS-v6.0-raphael-UNOFFICIAL_GAPPS-20220421-0002.zip",
-      "url": "https://github.com/Peam269/dotos-builds/releases/download/raphael-20220421/dotOS-v6.0-raphael-UNOFFICIAL_GAPPS-20220421-0002.zip",
+      "type": "UNOFFICIAL",
+      "generatedAt": 1650471527,
+      "fileName": "dotOS-v6.0-raphael-UNOFFICIAL_GAPPS-20220421-1213.zip",
+      "url": "https://github.com/Peam269/dotos-builds/releases/download/raphael-20220421/dotOS-v6.0-raphael-UNOFFICIAL_GAPPS-20220421-1213.zip",
       "requireCleanFlash": false,
       "images": null,
-      "hash": "de905a47d314d45ba036d114254bc29a4deee4ae44ab42ff08e62251efe0ec6d",
-      "size": 1966128763,
+      "hash": "988d437f97c63c763cd5c696dae45f18fb2e87dae16714ffc99452826ce660b5",
+      "size": 1966189819,
       "version": "v6.0"
     }
   ]
