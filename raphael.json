@@ -1,11 +1,11 @@
 {
   "codename": "raphael",
-  "deviceName": "Redmi K20 Pro",
+  "deviceName": "Mi 9T Pro",
   "brandName": "Xiaomi",
   "releases": [
     {
       "type": "UNOFFICIAL",
-      "generatedAt": 1650543840,
+      "generatedAt": 1650556812,
       "fileName": "dotOS-v6.0-raphael-UNOFFICIAL_GAPPS-20220421-1213.zip",
       "url": "https://github.com/Peam269/dotos-builds/releases/download/raphael-20220421/dotOS-v6.0-raphael-UNOFFICIAL_GAPPS-20220421-1213.zip",
       "requireCleanFlash": false,
