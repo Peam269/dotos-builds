@@ -5,13 +5,13 @@
   "releases": [
     {
       "type": "UNOFFICIAL",
-      "generatedAt": 1650556812,
-      "fileName": "dotOS-v6.0-raphael-UNOFFICIAL_GAPPS-20220421-1213.zip",
-      "url": "https://github.com/Peam269/dotos-builds/releases/download/raphael-20220421/dotOS-v6.0-raphael-UNOFFICIAL_GAPPS-20220421-1213.zip",
+      "generatedAt": 1650543840,
+      "fileName": "dotOS-v6.0-raphael-UNOFFICIAL_GAPPS-20220430-0922.zip",
+      "url": "https://github.com/Peam269/dotos-builds/releases/download/raphael-20220430/dotOS-v6.0-raphael-UNOFFICIAL_GAPPS-20220430-0922.zip",
       "requireCleanFlash": false,
       "images": null,
-      "hash": "988d437f97c63c763cd5c696dae45f18fb2e87dae16714ffc99452826ce660b5",
-      "size": 1966189819,
+      "hash": "9aac42bc8f1c339aa521ec0e34352c85471d8643c725ac15509cc6be4e933fe0",
+      "size": 1966174543,
       "version": "v6.0"
     }
   ]
